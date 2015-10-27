@@ -196,6 +196,8 @@ Graphics
 * [libxmi][174] - A function library for rasterizing 2D vector graphics. [GNU GPL3][41].
 * [mozjpeg][200] - An improved JPEG encoder. [3-clause BSD][6].
 * [OpenGL][147] - The industry standard for high-performance graphics, with a native C binding. [Various licenses][148].
+* [nanovg][375] -  NanoVG is small antialiased vector graphics rendering library for OpenGL. Free software license (check the source).
+* [Triangle][376] - Hight quality triangular meshes generator. Free software license (check the source).
 
 
 Graphical User Interface
@@ -943,3 +945,5 @@ XML
 [372]: https://github.com/andrewrk/libsoundio
 [373]: http://libcox.net/
 [374]: http://proprogramming.org/some-unknown-features-or-tricks-in-c-language/
+[375]: https://github.com/memononen/nanovg
+[376]: https://www.cs.cmu.edu/~quake/triangle.html
