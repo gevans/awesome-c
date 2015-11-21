@@ -198,7 +198,7 @@ Graphics
 * [OpenGL][147] - The industry standard for high-performance graphics, with a native C binding. [Various licenses][148].
 * [nanovg][375] -  NanoVG is small antialiased vector graphics rendering library for OpenGL. Free software license (check the source).
 * [Triangle][376] - Hight quality triangular meshes generator. Free software license (check the source).
-
+* [GTS][378] - Provides a simple and efficient library to scientists dealing with 3D computational surface meshes.
 
 Graphical User Interface
 ========================
@@ -219,98 +219,6 @@ JSON
 * [json-c][220] - A library for working with JSON. [Expat][11].
 * [WJElement][77] - Advanced JSON manipulation library, with support for JSON Schema. [GNU GPL3][41].
 * [YAJL][60] - A fast C JSON streaming parser library. [ISC][61]
-
-
-Learning, Reference and Tutorials
-=================================
-
-This is a list of resources for learning C programming in general, or something useful relating to C programming.
-
-## Online ##
-
-Reference
----------
-
-* [SEI CERT C Coding Standard][266]
-* [C FAQ - comp.lang.c Frequently Asked Questions][262]
-* [Comparison of C/POSIX standard library implementations for GNU/Linux][362]
-* [Draft C11 standard][247]
-* [GNU C Reference Manual][329]
-* [Robert Pike's notes on programming in C][273]
-
-Beginner
---------
-
-* [A tutorial on pointers][213]
-* [Building C Projects][208]
-* [C Programming Wikibook][248]
-* [Introduction to 'fun' C][279]
-* [Learning C with GDB][349]
-* [POSIX Threads Programming tutorial][263] (a little dated, but most of it is still valid and useful)
-* [The GNU C Programming Tutorial][212] (online PDF)
-* [Templating in C][267]
-
-Intermediate
-------------
-
-* [8 gdb tricks you should know][206]
-* [10 C99 tricks][257]
-* [Diving into concurrency: trying out mutexes and atomics][202]
-* [Introduction to OpenMP][207] (video)
-* [OpenMP tutorial][264] (for the OpenMP3 standard)
-* [memcpy vs memmove][205]
-* [MPI tutorial][265]
-* [Some unknown features or tricks in C language][374]
-* [The lost art of C structure packing][34]
-* [What a C programmer should know about memory][271]
-* [What every C programmer should know about undefined behaviour][275]
-
-Advanced
---------
-
-* [Advanced metaprogramming in C][357]
-* [A quick tutorial on implementing and debugging malloc, free, calloc, and realloc][204]
-* [Bit twiddling hacks][73]
-* [I do not know C][272]
-* [Implementing smart pointers for the C programming language][240]
-* [Inline functions in C][245]
-* [Metaprogramming custom control structures in C][343]
-* [Solving the temporary storage problem of C macros][358]
-* [Some dark corners of C][210]
-* [Writing efficient C and C code optimization][33]
- 
-Self-study courses
-----------
-
-* [C Programming Language Certified Associate preparation course][211]
-
-## Physical ##
-
-Reference
----------
-
-* [C: A Reference Manual 5E][181] - A full reference book for C99.
-* [C Pocket Reference][182] - A concise reference book for C99.
-* [The C Programming Language 2E][7] - The original book on C, by its creators.
-
-Beginner
---------
-
-* [C Primer Plus 6E][184] - A complete tutorial on programming in C11.
-* [C Programming: A Modern Approach][64] - An excellent book to learn the basics from C from.
-* [Head First C][102] - A 'head-first' style book for learning C.
-
-Intermediate
-------------
-
-* [21st Century C][35] - A very good *second* programming book on C.
-* [Understanding and Using C Pointers][36] - An in-depth resource on pointers in C.
-* [ZeroMQ][183] - A book for using ZeroMQ with C.
-
-Advanced
---------
-
-* [Expert C Programming: Deep C Secrets][55] - An interesting, in-depth and *entertaining* look at the innards of C.
 
 Multimedia
 ==========
@@ -570,6 +478,96 @@ XML
 * [mini-xml][216] - A small XML reading and writing library. No dependencies aside from C standard library. [GNU LGPL2.1 with static linking exception][217].
 * [VTD-XML][215] - A very fast XML processing framework. [GNU GPL2.1][8].
 
+Learning, Reference and Tutorials
+=================================
+
+This is a list of resources for learning C programming in general, or something useful relating to C programming.
+
+## Online ##
+
+Reference
+---------
+
+* [SEI CERT C Coding Standard][266]
+* [C FAQ - comp.lang.c Frequently Asked Questions][262]
+* [Comparison of C/POSIX standard library implementations for GNU/Linux][362]
+* [Draft C11 standard][247]
+* [GNU C Reference Manual][329]
+* [Robert Pike's notes on programming in C][273]
+
+Beginner
+--------
+
+* [A tutorial on pointers][213]
+* [Building C Projects][208]
+* [C Programming Wikibook][248]
+* [Introduction to 'fun' C][279]
+* [Learning C with GDB][349]
+* [POSIX Threads Programming tutorial][263] (a little dated, but most of it is still valid and useful)
+* [The GNU C Programming Tutorial][212] (online PDF)
+* [Templating in C][267]
+
+Intermediate
+------------
+
+* [8 gdb tricks you should know][206]
+* [10 C99 tricks][257]
+* [Diving into concurrency: trying out mutexes and atomics][202]
+* [Introduction to OpenMP][207] (video)
+* [OpenMP tutorial][264] (for the OpenMP3 standard)
+* [memcpy vs memmove][205]
+* [MPI tutorial][265]
+* [Some unknown features or tricks in C language][374]
+* [The lost art of C structure packing][34]
+* [What a C programmer should know about memory][271]
+* [What every C programmer should know about undefined behaviour][275]
+
+Advanced
+--------
+
+* [Advanced metaprogramming in C][357]
+* [A quick tutorial on implementing and debugging malloc, free, calloc, and realloc][204]
+* [Bit twiddling hacks][73]
+* [I do not know C][272]
+* [Implementing smart pointers for the C programming language][240]
+* [Inline functions in C][245]
+* [Metaprogramming custom control structures in C][343]
+* [Solving the temporary storage problem of C macros][358]
+* [Some dark corners of C][210]
+* [Writing efficient C and C code optimization][33]
+ 
+Self-study courses
+----------
+
+* [C Programming Language Certified Associate preparation course][211]
+
+## Physical ##
+
+Reference
+---------
+
+* [C: A Reference Manual 5E][181] - A full reference book for C99.
+* [C Pocket Reference][182] - A concise reference book for C99.
+* [The C Programming Language 2E][7] - The original book on C, by its creators.
+
+Beginner
+--------
+
+* [C Primer Plus 6E][184] - A complete tutorial on programming in C11.
+* [C Programming: A Modern Approach][64] - An excellent book to learn the basics from C from.
+* [Head First C][102] - A 'head-first' style book for learning C.
+
+Intermediate
+------------
+
+* [21st Century C][35] - A very good *second* programming book on C.
+* [Understanding and Using C Pointers][36] - An in-depth resource on pointers in C.
+* [ZeroMQ][183] - A book for using ZeroMQ with C.
+
+Advanced
+--------
+
+* [Expert C Programming: Deep C Secrets][55] - An interesting, in-depth and *entertaining* look at the innards of C.
 
 [1]: https://developer.gnome.org/glib/
 [2]: https://developer.gnome.org/gio/
@@ -947,3 +945,4 @@ XML
 [374]: http://proprogramming.org/some-unknown-features-or-tricks-in-c-language/
 [375]: https://github.com/memononen/nanovg
 [376]: https://www.cs.cmu.edu/~quake/triangle.html
+[378]: http://gts.sourceforge.net/index.html
