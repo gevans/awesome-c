@@ -411,6 +411,7 @@ This is a list of useful programs to help you write and debug C code which are *
 * [tup][326] - A very fast, file-based, cross-platform build system. [GNU GPL2.1][8].
 * [unifdef][290] - Removes #ifdef and #if directives with their delimited text without touching any other part of the file. [3-clause BSD][6] and [FreeBSD][24].
 * [Valgrind][85] - A range of dynamic analysis tools, including a leak checker. [GNU GPL2.1][8].
+* [ag](https://github.com/ggreer/the_silver_searcher) A code searching tool similar to ack, with a focus on speed.
 
 Utilities
 =========
