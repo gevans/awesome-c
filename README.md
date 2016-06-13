@@ -12,9 +12,9 @@ This project is part of [Peers][397] - a community for growing our freedom. Supp
 
 - [Build Systems](#build-systems)
 - [Compilers](#compilers)
-- [Concurrent and Parallel](#concurrent-and-parallel)
 - [Crypto](#crypto)
 - [Database](#database)
+- [Deep Learning](#deep-learning)
 - [Documentation Generation](#documentation-generation)
 - [Editors](#editors)
 - [Environments](#environments)
@@ -25,6 +25,7 @@ This project is part of [Peers][397] - a community for growing our freedom. Supp
 - [Generic Programming](#generic-programming)
 - [Graphics](#graphics)
 - [Graphical User Interface](#graphical-user-interface)
+- [Image Processing](#image-processing)
 - [JSON](#json)
 - [Learning, Reference and Tutorials](#learning-reference-and-tutorials)
   - [Online](#online)
@@ -42,6 +43,7 @@ This project is part of [Peers][397] - a community for growing our freedom. Supp
 - [Networking and Internet](#networking-and-internet)
   - [Web Frameworks](#web-frameworks)
 - [Numerical](#numerical)
+- [Concurrent and Parallel](#concurrent-and-parallel)
 - [Regex](#regex)
 - [Serialization](#serialization)
 - [Source Code Collections](#source-code-collections)
@@ -74,21 +76,6 @@ These are tools to automate the building and testing of projects in C.
 * [PCC][74] - A venerable compiler. Supports C99. [Various licenses][75], all free.
 * [TCC][58] - Tiny C Compiler; a small, fast compiler. Supports C99 (except complex types). [GNU LGPLv2.1][15] only.
 
-## Concurrent and Parallel ##
-
-* [cchan][243] - A small library for channel constructs for inter-thread communication. Public domain.
-* [ck][242] - Concurrency primitives, safe memory reclamation mechanisms and non-blocking data structures. [FreeBSD][24].
-* [libconcurrent][390] - Concurrent programming library, using coroutines, for C11. [zlip][49].
-* [mill][352] - Go-style concurrency. [X11][353].
-* [MPICH][285] - Another implementation of MPI. [MPICH licence][286].
-* [OpenMP][37] - A set of pragmas designed to allow for easy parallelization of code. Standard (licensing not applicable).
-* [OpenMPI][284] - A message passing interface implementation. [3-clause BSD][6].
-* [PETSc][282] - A suite of data structures and routines for scalable parallel solution of scientific applications modelled by partial differential equations. [FreeBSD][24].
-* [pth][180] - A portable implementation for non-preemptive priority-based scheduling for multiple threads of execution. [GNU GPLv3][41] or later.
-* [pthreads][146] - The POSIX thread library. Standard (no license applicable).
-* [SLEPc][283] - A software library for the solution of large, sparse eigenvalue problems on parallel computers. [GNU LGPLv3][5] only.
-* [TinyCThread][115] - A portable, small implementation of the C11 threads API. [zlib][49].
-
 ## Crypto ##
 
 * [GnuTLS][112] - A secure communication library, implementing SSL, TLS and DTLS. [GNU LGPLv2.1][15] or later.
@@ -114,6 +101,9 @@ This lists databases and data stores with C APIs.
 * [SQLite][22] - A self-contained, serverless, zero-configuration, transactional SQL database engine. Public domain.
 * [UnQLite][23] - A self-contained, serverless, zero-configuration, transactional NoSQL engine. [FreeBSD][24].
 
+## Deep Learning ##
+* [Darknet][396] - An open source neural network framework written in C and CUDA. It is fast, easy to install, and supports CPU and GPU computation.
+
 ## Documentation Generation ##
 
 * [Cxref][317] - Generates documentation in either LaTeX, HTML, RTF or SGML. [GNU GPLv2.1][8] only.
@@ -131,6 +121,7 @@ These are specifically fancier, IDE-type editors. If you want a programmer's tex
 * [Eclipse][258] - An IDE written in Java. [EPL][259].
 * [Geany][43] - A very small and fast IDE. [GNU GPLv2.1][8] or later.
 * [KDevelop][44] - The KDE IDE. [GNU GPLv2.1][8] only.
+* [Qt Creator][394] - A cross-platform IDE written with C++ and Qt, part of the Qt SDK. Supports Clang Code Model. [GNU GPL3 with Qt exception][395] only.
 
 ## Environments ##
 
@@ -221,6 +212,10 @@ These are specifically [widget toolkits][12].
 * [Tk][19] - A basic widget toolkit. Part of Tcl/Tk. [Tcl/Tk License][20].
 * [XForms Toolkit][21] - A widget toolkit designed for the XWindow system. [GNU LGPLv2.1][15] only.
 
+## Image Processing ##
+
+* [libccv][391] - A Modern Computer Vision Library. [3-clause BSD][6].
+
 ## JSON ##
 
 * [Jansson][53] - A library for encoding, decoding and manipulating JSON. [Expat][11].
@@ -266,6 +261,7 @@ This is a list of resources for learning C programming in general, or something 
 * [MPI tutorial][265]
 * [Scalable C - Writing Large-Scale Distributed C][391]
 * [Some unknown features or tricks in C language][374]
+* [The lost art of C structure packing][34]
 * [What a C programmer should know about memory][271]
 * [What every C programmer should know about undefined behaviour][275]
 
@@ -281,7 +277,7 @@ This is a list of resources for learning C programming in general, or something 
 * [Solving the temporary storage problem of C macros][358]
 * [Some dark corners of C][210]
 * [Writing efficient C and C code optimization][33]
- 
+
 #### Self-study courses ####
 
 * [C Programming Language Certified Associate preparation course][211]
@@ -341,7 +337,8 @@ This is a list of resources for learning C programming in general, or something 
 * [nanomsg][139] - A C-based implementation of ZeroMQ. [Expat][11].
 * [onion][170] - HTTP server library, designed to be easy to use. [Apache2.0][32].
 * [OpenSSL][110] - Implementation of the SSL and TLS protocols, and also includes a cryptography library. [Dual Licensed under the OpenSSL License and the SSLeay License][111]
-* [oSip][179] - A SIP implementation without additional dependencies. [GNU LGPLv2.1][15] or later.
+* [oSip][179] - A SIP implementation in C without additional dependencies. [GNU LGPLv2.1][15] or later.
+* [pig][393] - A Linux packet crafting tool. [GPL2][8].
 * [s2n][359] - A C99 implementation of the TLS/SSL protocols, designed to be simple, fast and with security as a priority. [Apache2.0][32].
 * [socket99][203] - A C99 wrapper for the BSD sockets API. [ISC][61].
 * [Tox][145] - A communication platform, designed to be a Skype-killer. [GNU GPLv3][41] only.
@@ -371,6 +368,21 @@ This is a list of resources for learning C programming in general, or something 
 * [PETSc][282] - A suite of data structures and routines for scalable parallel solution of scientific applications modelled by partial differential equations. [FreeBSD][24].
 * [SLEPc][283] - A software library for the solution of large, sparse eigenvalue problems on parallel computers. [GNU LGPLv3][5] only.
 * [Yeppp!][72] - Very fast, SIMD-optimized mathematical library. [3-clause BSD][6].
+
+## Concurrent and Parallel ##
+
+* [cchan][243] - A small library for channel constructs for inter-thread communication. Public domain.
+* [ck][242] - Concurrency primitives, safe memory reclamation mechanisms and non-blocking data structures. [FreeBSD][24].
+* [libconcurrent][390] - Concurrent programming library, using coroutines, for C11. [zlip][49].
+* [mill][352] - Go-style concurrency. [X11][353].
+* [MPICH][285] - Another implementation of MPI. [MPICH licence][286].
+* [OpenMP][37] - A set of pragmas designed to allow for easy parallelization of code. Standard (licensing not applicable).
+* [OpenMPI][284] - A message passing interface implementation. [3-clause BSD][6].
+* [PETSc][282] - A suite of data structures and routines for scalable parallel solution of scientific applications modelled by partial differential equations. [FreeBSD][24].
+* [pth][180] - A portable implementation for non-preemptive priority-based scheduling for multiple threads of execution. [GNU GPLv3][41] or later.
+* [pthreads][146] - The POSIX thread library. Standard (no license applicable).
+* [SLEPc][283] - A software library for the solution of large, sparse eigenvalue problems on parallel computers. [GNU LGPLv3][5] only.
+* [TinyCThread][115] - A portable, small implementation of the C11 threads API. [zlib][49].
 
 ## Regex ##
 
@@ -426,11 +438,12 @@ This contains standard C libraries.
 * [cmocka][141] - A unit testing framework with support for mock objects. [Apache2.0][32].
 * [Criterion][246] - A KISS, non-intrusive test framework. [Expat][11].
 * [CUnit][94] - Another unit testing framework. [GNU LGPL2.0][15] only.
-* [minctest][394] - A unit testing microlibrary. [3-clause BSD][6].
+* [Cutest][392] - Library for unit testing with memory leak detection (Linux, freeBSD and Windows). [GPL2][8].
 * [minunit][92] - Minimal unit testing framework. [Expat][11].
+* [Unity][296] - A simple unit testing framework. [Expat][11].
+* [minctest][394] - A unit testing microlibrary. [3-clause BSD][6].
 * [munit][392] - A small unit testing framework. [Expat][11].
 * [theft][302] - Property-based testing (similar to [Quickcheck][301]). [Expat][11].
-* [Unity][296] - A simple unit testing framework. [Expat][11].
 
 ## Text Editor Extensions ##
 
@@ -467,6 +480,7 @@ This is a list of useful programs to help you write and debug C code which are *
 * [cflow][404] - Analyzes a collection of source files and prints a graph charting control flow in the program. [GNU GPLv3][41] or later.
 * [cinclude2dot][280] - Graphs include dependencies in a project using Graphviz. Any GNU GPL version (due to underspecification in the file).
 * [Complexity][307] - A tool for measuring the complexity of source code. [GNU GPLv3][41] or later.
+* [CScout][397] - a source code analyzer and refactoring browser for collections of C programs. [GNU GPL3][41] only.
 * [DDD][320] - A graphical front-end for a range of command-line debuggers. [GNU GPLv3][41] or later.
 * [fab][323] - A build system that helps build optimally every time. [GNU GPLv3][41] only.
 * [GDB][87] - The GNU Project debugger. [GNU GPLv3][41] or later.
