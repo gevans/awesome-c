@@ -207,7 +207,10 @@ These are libraries of all sorts that are useful for game programming.
 * [libxmi][174] - A function library for rasterizing 2D vector graphics. [GNU GPLv3][41] or later.
 * [mozjpeg][200] - An improved JPEG encoder. [3-clause BSD][6].
 * [OpenGL][147] - The industry standard for high-performance graphics, with a native C binding. [Various licenses][148].
-
+* [nanovg][414] - NanoVG is small antialiased vector graphics rendering library for OpenGL. [zlib][49].
+* [Triangle][415] - Hight quality triangular meshes generator. Free software license (check the source).
+* [GTS][416] - Provides a simple and efficient library to scientists dealing with 3D computational surface meshes. [LGPL][5].
+ 
 ## Graphical User Interface ##
 
 These are specifically [widget toolkits][12].
@@ -480,6 +483,7 @@ This is a list of useful programs to help you write and debug C code which are *
 * [tup][326] - A very fast, file-based, cross-platform build system. [GNU GPLv2.1][8] only.
 * [unifdef][290] - Removes #ifdef and #if directives with their delimited text without touching any other part of the file. [3-clause BSD][6] and [FreeBSD][24].
 * [Valgrind][85] - A range of dynamic analysis tools, including a leak checker. [GNU GPLv2.1][8] only.
+* [ag][413] A code searching tool similar to ack, with a focus on speed. [Apache2.0][32]
 
 ## Utilities ##
 
@@ -968,3 +972,7 @@ This is a 'catch-all' category for anything that doesn't fit well anywhere else.
 [410]: http://www.spinellis.gr/cscout/
 [411]: http://liblfds.org/
 [412]: https://github.com/codeplea/genann
+[413]: https://github.com/ggreer/the_silver_searcher
+[414]: https://github.com/memononen/nanovg
+[415]: https://www.cs.cmu.edu/~quake/triangle.html      
+[416]: http://gts.sourceforge.net/index.html
